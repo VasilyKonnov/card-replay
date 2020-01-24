@@ -1,0 +1,10 @@
+.Logo a {
+  text-decoration: none;
+  color: #363d54;
+}
+.Logo a:visited {
+  color: #363d54;
+}
+.Logo a:active {
+  color: #363d54;
+}

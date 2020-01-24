@@ -1,0 +1,10 @@
+.Input {
+  margin-bottom: 15px !important;
+  width: 100%;
+}
+.Input.ivalid input {
+  color: #f01f30 !important;
+}
+.icon-color {
+  color: #495057;
+}

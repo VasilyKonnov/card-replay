@@ -1,0 +1,38 @@
+.MenuLinks {
+  /* position: fixed;
+  max-width: 300px; */
+  /* right: 0;
+  top: 0;
+  bottom: 0; */
+  /* width: 80%; */
+  /* padding: 20px 10px; */
+  box-sizing: border-box;
+  background: transparent;
+  /* z-index: 90; */
+  /* transform: translateX(0px); */
+  transition: transform 0.22s ease-in;
+}
+.MenuLinks ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: right;
+}
+.MenuLinks ul li {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.MenuLinks ul li a {
+  color: #363d54;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  padding: 15px;
+  border-radius: 3px;
+  transition: opacity 0.3;
+}
+.MenuLinks ul li a:hover {
+  background: rgba(200, 200, 200, 0.2);
+}

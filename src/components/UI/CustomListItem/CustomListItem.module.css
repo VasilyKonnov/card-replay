@@ -1,0 +1,53 @@
+.CustomListClassNames {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.CustomListClassNames:hover {
+  background-color: rgba(88, 205, 94, 0.2);
+  transition: all 0.3s ease;
+}
+.sizeSection {
+  display: flex;
+  max-height: 38px;
+  align-items: center;
+}
+.sizeSection span {
+  display: block;
+  padding-top: 3px;
+  max-height: 38px;
+  min-width: 33px;
+  font-size: 11px;
+}
+.CustomListClassNames a {
+  text-decoration: none;
+  line-height: 10px;
+  display: block;
+  color: #363d54;
+  width: 100%;
+  padding: 6px 7px 6px 6px;
+}
+.CustomListClassNames .sectionName {
+  display: block;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.47;
+  letter-spacing: 0.00938em;
+}
+.CustomListClassNames .date {
+  font-size: 9px;
+}
+.itemIcon {
+  padding: 9px !important;
+  max-height: 38px !important;
+  font-size: 15px !important;
+}
+.itemIcon span svg {
+  font-size: 15px;
+  opacity: 1;
+}
+.itemIcon button:hover span svg {
+  opacity: 1;
+}

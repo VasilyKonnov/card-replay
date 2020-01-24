@@ -1,0 +1,27 @@
+.info {
+  margin: 7px 0 20px;
+  box-sizing: border-box;
+  color: #495057;
+}
+.info b {
+  font-weight: 500;
+}
+.info a {
+  color: #363d54;
+  font-weight: 500;
+  text-decoration: none;
+}
+.info a:hover {
+  text-decoration: underline;
+}
+.info a:visited {
+  color: #363d54;
+}
+.info a:active {
+  color: #363d54;
+}
+.button {
+  display: block !important;
+  margin: 15px auto 0 !important;
+  padding: 6px 16px !important;
+}
