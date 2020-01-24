@@ -1,11 +1,11 @@
-.CustomListClassNames {
+.Item {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
   transition: all 0.3s ease;
   border-radius: 5px;
 }
-.CustomListClassNames:hover {
+.Item:hover {
   background-color: rgba(88, 205, 94, 0.2);
   transition: all 0.3s ease;
 }
@@ -21,7 +21,7 @@
   min-width: 33px;
   font-size: 11px;
 }
-.CustomListClassNames a {
+.Item a {
   text-decoration: none;
   line-height: 10px;
   display: block;
@@ -29,14 +29,14 @@
   width: 100%;
   padding: 6px 7px 6px 6px;
 }
-.CustomListClassNames .sectionName {
+.Item .sectionName {
   display: block;
   font-size: 17px;
   font-weight: 400;
   line-height: 1.47;
   letter-spacing: 0.00938em;
 }
-.CustomListClassNames .date {
+.Item .date {
   font-size: 9px;
 }
 .itemIcon {
