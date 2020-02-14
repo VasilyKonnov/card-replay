@@ -22,6 +22,7 @@ const CustomInput = props => {
   if (InputType === "text") {
     return (
       <StyledInput
+        autoFocus={props.autoFocus}
         required={props.required}
         error={isInvalid(props)}
         helperText={isInvalid(props) ? props.errorMessage : null}

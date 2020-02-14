@@ -1,9 +1,9 @@
 .Item {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
   transition: all 0.3s ease;
   border-radius: 5px;
+  align-items: center;
 }
 .Item:hover {
   background-color: rgba(88, 205, 94, 0.2);
@@ -27,7 +27,7 @@
   display: block;
   color: #363d54;
   width: 100%;
-  padding: 6px 7px 6px 6px;
+  padding: 11px 7px 11px 6px;
 }
 .Item .sectionName {
   display: block;
