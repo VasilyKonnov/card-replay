@@ -5,8 +5,8 @@ import AddButton from "../../components/UI/AddButton/AddButton";
 import MainContiner from "../../containers/MainContainer/MainContainer";
 import Container from "../../containers/Container/Container";
 import SortList from "../../components/UI/SortList/SortList";
-import Button from "../../components/UI/Button/Button";
-import NavigateNextIcon from "@material-ui/icons/NavigateNext";
+// import Button from "../../components/UI/Button/Button";
+// import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 
 import CustomList from "../../components/UI/CustomList/CustomList";
 import AddParDialog from "../../components/UI/AddParDialog/AddParDialog";
@@ -79,13 +79,7 @@ export default class Theory extends Component {
       <MainContiner>
         <Container>
           <div className={TheoryClassNames}>
-            <h2>
-              Теория{" "}
-              <Button>
-                <NavigateNextIcon />
-                Практика
-              </Button>
-            </h2>
+            <h2>Список предметов</h2>
             <SortList />
             <CustomList
               listItems={this.state.listItems}

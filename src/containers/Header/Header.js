@@ -21,6 +21,7 @@ const Header = props => {
         onClose={props.onClose}
       />
       {props.children}
+      
     </header>
   );
 };

@@ -26,6 +26,7 @@
   display: block;
   padding: 0;
   position: relative;
+  text-align: left;
 }
 .Drawer ul li:after {
   width: calc(100% - 30px);
@@ -33,16 +34,14 @@
   content: "";
   display: block;
   margin-left: 15px;
-  background-color: #e5e5e5;
+  background-color: #d6e6f9;
 }
 .Drawer ul li a {
-  color: #363d54;
   margin: 0px;
   display: inline-flex;
   padding: 15px;
   position: relative;
   font-size: 12px;
-  font-weight: 400;
   line-height: 20px;
   border-radius: 3px;
   text-transform: uppercase;

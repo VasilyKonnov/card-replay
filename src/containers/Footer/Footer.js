@@ -14,7 +14,7 @@ const Footer = props => {
         <a
           target="_blank"
           className={classes["Developer"]}
-          href="https://vk.com"
+          href="https://vk.com/vasily_konnov"
         >
           Разработчик
         </a>

@@ -1,7 +1,8 @@
 .Footer {
   padding: 25px 0;
   width: 100%;
-  color: #363d54;
+  color: #12243e;
+  font-weight: 400;
   /* background-color: greenyellow; */
 }
 .Footer-container {

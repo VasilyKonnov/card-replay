@@ -3,7 +3,7 @@ import Dialog from "@material-ui/core/Dialog";
 
 const StyledDialog = styled(Dialog)`
   .MuiBackdrop-root {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(18, 36, 62, 0.1);
   }
   .MuiPaper-elevation24 {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
