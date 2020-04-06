@@ -1,6 +1,8 @@
 import React from "react";
 import classes from "./HeaderProfile.module.css";
 import Logo from "../../components/UI/Logo/Logo";
+import Avatar from "../../components/UI/Avatar/Avatar";
+import Notification from "../../components/UI/Notifications/Notifications";
 import classNames from "classnames";
 
 const Header = props => {
@@ -13,7 +15,8 @@ const Header = props => {
         </div>
 
         <div className={classes["Profile-block"]}>
-          
+          <Notification/>
+          <Avatar/>
         </div>
 
       </div>

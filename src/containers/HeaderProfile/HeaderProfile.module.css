@@ -29,18 +29,14 @@
 
 @media (min-width: 576px) {
   .Header-container {
-    max-width: 540px;
+    max-width: 95%;
   }
 }
 @media (min-width: 768px) {
-  .Header-container {
-    max-width: 720px;
-  }
+  
 }
 @media (min-width: 992px) {
-  .Header-container {
-    max-width: 960px;
-  }
+  
   .Header nav {
     display: block;
   }
