@@ -21,7 +21,6 @@ export default class AddParDialog extends Component {
     });
   };
   render() {
-    console.log("Что мы принимаем в open", this.props.open);
     const open = this.props.open;
 
     const FormDialogClassNames = classNames(
