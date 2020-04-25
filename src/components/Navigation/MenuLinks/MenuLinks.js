@@ -6,8 +6,8 @@ import classNames from "classnames";
 const Links = [
   { to: "/", label: "Вход", exact: true },
   { to: "/register", label: "Регистрация", exact: false },
-  { to: "/about", label: "О сервисе", exact: false },
-  { to: "/tarifs", label: "Тарифы", exact: false }
+  // { to: "/about", label: "О сервисе", exact: false },
+  // { to: "/tarifs", label: "Тарифы", exact: false }
 ];
 
 export default class MenuLinks extends Component {

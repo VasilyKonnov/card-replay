@@ -1,15 +1,14 @@
 .Logo a {
-  position:relative;
-  top:-2px;
   text-decoration: none;
   color: #12243e;
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 18px;
   display: flex;
   align-items: center;
-  width: 55px;
+  width: 116px;
   height: 44px;
 }
-.Logo a img{
+.Logo a img {
   object-fit: containe;
   width: 100%;
   margin-right: 7px;
