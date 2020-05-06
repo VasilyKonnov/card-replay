@@ -1,5 +1,9 @@
 .hello-text {
   text-align: center;
+  /* background-image: url(../../assets/img/11.jpg); */
+  background-position: center center;
+  background-size: 45%;
+  min-height: 80vh;
 }
 .form {
   max-width: 400px;

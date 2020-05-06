@@ -21,39 +21,39 @@ export default class Theory extends Component {
           id: 1,
           sectionName: "React Native",
           date: "Раздел создан 23.01.2020",
-          sizeSection: "24 §"
+          sizeSection: "24 §",
         },
         {
           id: 2,
           sectionName: "Раздел создан Раздел создан Angular 8+",
           date: "Раздел создан 23.01.2020",
-          sizeSection: "24 §"
+          sizeSection: "24 §",
         },
         {
           id: 3,
           sectionName: "Node.js",
           date: "Раздел создан 23.01.2020",
-          sizeSection: "24 §"
+          sizeSection: "24 §",
         },
         {
           id: 4,
           sectionName: "React Native",
           date: "Раздел создан 23.01.2020",
-          sizeSection: "24 §"
+          sizeSection: "24 §",
         },
         {
           id: 5,
           sectionName: "Angular 8+",
           date: "Раздел создан 23.01.2020",
-          sizeSection: "24 §"
+          sizeSection: "24 §",
         },
         {
           id: 6,
           sectionName: "Раздел создан Node.js ",
           date: "Раздел создан 23.01.2020",
-          sizeSection: "24 §"
-        }
-      ]
+          sizeSection: "24 §",
+        },
+      ],
     };
   }
   editListItem = () => {
@@ -62,12 +62,12 @@ export default class Theory extends Component {
   handlerOpen = () => {
     console.log("Click on Add Button");
     this.setState({
-      open: true
+      open: true,
     });
   };
   handlerClose = () => {
     this.setState({
-      open: false
+      open: false,
     });
   };
   render() {

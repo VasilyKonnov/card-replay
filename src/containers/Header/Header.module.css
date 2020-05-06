@@ -26,9 +26,13 @@
   justify-content: space-between;
   box-sizing: border-box;
 }
+.Search div {
+  width: 510px;
+}
 .menuButtons {
   display: flex;
   justify-content: flex-end;
+  width: 100%;
 }
 .green {
   color: #fff !important;
@@ -44,7 +48,7 @@
 .create,
 .login,
 .green,
-.search {
+.searchButton {
   text-transform: none !important;
 }
 @media (min-width: 576px) {

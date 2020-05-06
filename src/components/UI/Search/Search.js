@@ -9,7 +9,11 @@ const Search = (props) => {
   const SearchClassNames = classNames(props.className, classes["Search"]);
   return (
     <form className={SearchClassNames} onClick={props.onClick}>
-      <InputBase className={classes.input} placeholder="Введите поиск" />
+      <InputBase
+        className={classes.input}
+        placeholder="Введите поиск"
+        autoFocus={true}
+      />
       <Button
         className={classes["Button"]}
         startIcon={<SearchIcon />}

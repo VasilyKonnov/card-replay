@@ -1,13 +1,11 @@
 .Search {
   display: flex;
 }
-.Search div {
-  width: 400px !important;
-}
 
 .Search div input {
   border-bottom: solid 1px #d0d0d0;
 }
 .Button {
   text-transform: none !important;
+  margin-left: 10px !important;
 }

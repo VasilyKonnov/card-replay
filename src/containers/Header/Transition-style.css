@@ -1,0 +1,33 @@
+.openTrigger.entering {
+  opacity: 0;
+  /* position: absolute; */
+}
+.openTrigger.entered {
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+.openTrigger.exiting {
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+.openTrigger.exited {
+  transition: opacity 0ms;
+}
+
+.searchWrapper.entering {
+  opacity: 0;
+  position: absolute;
+  transition: opacity 300ms;
+}
+.searchWrapper.entered {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.searchWrapper.exiting {
+  display: none;
+  opacity: 1;
+}
+.searchWrapper.exited {
+  opacity: 0;
+  transition: opacity 300ms;
+}
