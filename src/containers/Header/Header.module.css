@@ -26,9 +26,6 @@
   justify-content: space-between;
   box-sizing: border-box;
 }
-.Search div {
-  width: 510px;
-}
 .menuButtons {
   display: flex;
   justify-content: flex-end;
@@ -40,10 +37,10 @@
   margin-left: 10px !important;
 }
 .login {
-  margin-left: 75px !important;
+  display: none !important;
 }
 .create {
-  margin-left: 15px !important;
+  display: none !important;
 }
 .create,
 .login,
@@ -51,26 +48,60 @@
 .searchButton {
   text-transform: none !important;
 }
-@media (min-width: 576px) {
-  .Header-container {
-    max-width: 540px;
+.searchButton {
+  display: none !important;
+}
+@media (min-width: 425px) {
+  .login {
+    display: inline-flex !important;
+    margin-left: 15px !important;
   }
 }
+@media (min-width: 576px) {
+  .create {
+    display: inline-flex !important;
+    margin-left: 5px !important;
+  }
+}
+
+/* 
+  Поиск скрываю для маленьких экранов в файле Transition-style.css
+  Это связанно с использованием библиотеки transition, из этого файла стили не применились
+*/
+
 @media (min-width: 768px) {
-  .Header-container {
-    max-width: 720px;
+  .searchButton {
+    display: inline-flex !important;
   }
 }
 @media (min-width: 992px) {
+  .login {
+    margin-left: 25px !important;
+  }
+  .create {
+    margin-left: 10px !important;
+  }
   .Header-container {
-    max-width: 960px;
+    max-width: 1100px;
   }
   .Header nav {
     display: block;
   }
+  .Search div {
+    width: 410px;
+  }
 }
 @media (min-width: 1200px) {
+  .Search div {
+    width: 510px;
+  }
   .Header-container {
     max-width: 1140px;
+  }
+  .login {
+    margin-left: 75px !important;
+  }
+  .create {
+    margin-left: 15px !important;
   }
 }

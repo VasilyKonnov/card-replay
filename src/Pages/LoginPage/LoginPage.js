@@ -10,7 +10,7 @@ const LoginPage = (props) => {
   return (
     // <MainContainer>
     <Container>
-      <Grid container spacing={6}>
+      <Grid container spacing={3}>
         <Grid item md={7} xs={12} className={classes["hello-text"]}></Grid>
         <Grid item md={5} xs={12}></Grid>
       </Grid>

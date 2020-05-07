@@ -14,6 +14,13 @@ const StyledDialog = styled(Dialog)`
   .MuiDialog-paper {
     margin: 10px;
   }
+
+  @media (max-width: 663.95px) {
+    .MuiDialog-paperWidthSm.MuiDialog-paperScrollBody {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
 `;
 
 export default StyledDialog;

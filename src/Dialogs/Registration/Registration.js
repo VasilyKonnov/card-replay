@@ -55,10 +55,6 @@ const Registration = (props) => {
             <img src={iconOk} />
           </Button>
         </div>
-        <br />
-        <br />
-        <hr />
-        <br />
         <h3>Или стандартная</h3>
         <h2>Регистрация через Email</h2>
         <RegistrationForm />

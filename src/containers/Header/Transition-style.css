@@ -1,6 +1,5 @@
 .openTrigger.entering {
   opacity: 0;
-  /* position: absolute; */
 }
 .openTrigger.entered {
   opacity: 1;
@@ -30,4 +29,15 @@
 .searchWrapper.exited {
   opacity: 0;
   transition: opacity 300ms;
+}
+
+@media (max-width: 767px) {
+  .searchWrapper.entered {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) {
+  .searchWrapper.entered {
+    display: block !important;
+  }
 }

@@ -5,7 +5,6 @@ import classNames from "classnames";
 
 import Logo from "../../components/UI/Logo/Logo";
 import { Button } from "@material-ui/core";
-import { CSSTransition } from "react-transition-group";
 import { Transition } from "react-transition-group";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import AddIcon from "@material-ui/icons/Add";

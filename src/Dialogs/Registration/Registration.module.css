@@ -25,12 +25,11 @@
   left: 0;
 }
 .socialIcons {
-  display: flex;
-}
-.bodyDialog button {
-  display: flex;
-  margin: 20px auto 0 !important;
-  padding: 6px 20px !important;
+  display: block;
+  text-align: center;
+  margin: 20px 0 15px;
+  padding-bottom: 30px;
+  border-bottom: solid 1px #ccc;
 }
 .headerDialog {
   min-height: 48px;
@@ -43,4 +42,18 @@
 }
 .bodyDialog {
   padding: 5px 30px 30px;
+}
+
+@media (min-width: 576px) {
+  .socialIcons {
+    display: flex;
+    justify-content: space-around;
+    margin: 45px 0 30px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 575px) {
+  .socialIcons button img {
+    width: 42px;
+  }
 }
