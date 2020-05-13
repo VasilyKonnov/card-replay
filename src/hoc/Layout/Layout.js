@@ -25,12 +25,12 @@ class Layout extends Component {
   render() {
     return (
       <>
-        <Header
+        {/* <Header
           isOpen={this.state.menu}
           onClose={this.menuCloseHendler}
           onToggle={this.toggleMenuHandler}
-        />
-        {/* <HeaderProfile /> */}
+        /> */}
+        <HeaderProfile />
         <div className={classes["Layout"]}>{this.props.children}</div>
         <Footer />
       </>

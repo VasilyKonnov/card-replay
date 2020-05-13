@@ -1,0 +1,50 @@
+.Header {
+  position: relative;
+  top: 0;
+  /* padding-top: 25px; */
+  height: 75px;
+  display: flex;
+  width: 100%;
+  background-color: transparent;
+}
+.Header nav {
+  display: none;
+}
+.Header.fix {
+  height: 50px;
+}
+.Header-container {
+  flex: 1;
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  flex-wrap: nowrap;
+  min-height: 50px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.NotificationPopover div {
+  padding: 15px 30px !important;
+}
+@media (min-width: 576px) {
+  .Header-container {
+    max-width: 95%;
+  }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+  .Header nav {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .Header-container {
+    max-width: 1140px;
+  }
+}

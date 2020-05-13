@@ -1,29 +1,29 @@
-.Avatar{    
-    color: #12243e!important;
+.Avatar {
+  color: #12243e !important;
 }
-.Avatar span .MuiAvatar-root{
-    border: solid 2px #fff!important;
+.Avatar span .MuiAvatar-root {
+  border: solid 2px #fff !important;
 }
-.UserName{
-    display: none;
+.UserName {
+  display: none;
 }
-.ArrayDown{
-    color: #12243e!important;
-    font-size: 15px!important;
+.ArrayDown {
+  color: #12243e !important;
+  font-size: 15px !important;
 }
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+}
 @media (min-width: 768px) {
-    
-.UserName{
+  .UserName {
     display: block;
-    margin-right: 10px!important;
-    color: #12243e!important;
-    text-transform: initial!important;
-    font-size: 16px;
-    font-weight: 400;
-}
+    margin-right: 10px !important;
+    color: #12243e !important;
+    text-transform: initial !important;
+    font-size: 14px;
+    font-weight: 500;
+  }
 }
 @media (min-width: 992px) {
-
 }
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
