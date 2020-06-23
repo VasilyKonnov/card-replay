@@ -12,63 +12,60 @@ import Slide4 from "../../assets/img/4.png";
 // import { easing } from "@material-ui/core";
 
 const paramsSwiper = {
-  // scrollbar: {
-  //   el: ".swiper-scrollbar",
-  //   hide: false,
-  // },
-  // slidesPerView: 1,
-  // loop: true,
+  slidesPerView: 1,
+  loop: true,
   spaceBetween: 30,
-  mousewheel: true,
-  // lazy: true,
+  lazy: true,
   centeredSlides: true,
   effect: "fade",
-  // autoplay: {
-  // delay: 3000,
-  // speed: {
-  //   easeInOut: "cubic-bezier(1.4, 0, 1.2, 2)",
-  // },
-  // disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
 };
 console.log(paramsSwiper.effect);
 const LoginPage = (props) => {
   return (
-    // <MainContainer>
-    <Container>
-      <Grid container spacing={3}>
-        <Grid item md={4} xs={12} className={classes["hello-text"]}>
-          <div style={{ marginTop: "150px" }}>
-            <h2>
-              Легко изучай любой предмет! <br />
-              Шаг за шагом достигай лучших результатов!
-            </h2>
-            {/* <h2>Мы поможем с этим!</h2> */}
-            <Button>Начать</Button>
-          </div>
+    <>
+      <Container>
+        <Grid container spacing={3}>
+          <Grid item md={4} xs={12} className={classes["hello-text"]}>
+            <div>
+              <h2>
+                Легко изучай любой предмет! <br />
+                Шаг за шагом достигай лучших результатов!
+              </h2>
+              <Button>Начать</Button>
+            </div>
+          </Grid>
+          <Grid item md={8} xs={12} style={{ height: "95vh" }}>
+            <Swiper {...paramsSwiper}>
+              <div style={{ height: "600px", backgroundColor: "#fff" }}>
+                <img src={Slide2} style={{ width: "100%" }} />
+              </div>
+              <div style={{ height: "600px", backgroundColor: "#fff" }}>
+                <img src={Slide1} style={{ width: "100%" }} />
+              </div>
+              <div style={{ height: "600px", backgroundColor: "#fff" }}>
+                <img src={Slide4} style={{ width: "100%" }} />
+              </div>
+              <div style={{ height: "600px", backgroundColor: "#fff" }}>
+                <img src={Slide3} style={{ width: "100%" }} />
+              </div>
+            </Swiper>
+          </Grid>
         </Grid>
-        <Grid item md={8} xs={12}>
-          {/* <div style={{ height: "600px" }}> */}
-          <Swiper {...paramsSwiper}>
-            <div style={{ height: "600px" }}>
-              <img src={Slide2} style={{ height: "100%" }} />
-            </div>
-            <div style={{ height: "600px" }}>
-              <img src={Slide1} style={{ height: "100%" }} />
-            </div>
-            <div style={{ height: "600px" }}>
-              <img src={Slide4} style={{ height: "100%" }} />
-            </div>
-            <div style={{ height: "600px" }}>
-              <img src={Slide3} style={{ height: "100%" }} />
-            </div>
-          </Swiper>
-          {/* </div> */}
-        </Grid>
-      </Grid>
-    </Container>
-    //{" "}
-    // </MainContainer>
+      </Container>
+
+      <div style={{ width: "100%", padding: "30px 0", background: "#48AF73" }}>
+        <h2
+          style={{ maxWidth: "1144px", textAlign: "center", margin: "0 auto" }}
+        >
+          Запоминание информации на карточках давно успешно используется и мы
+          реализуем удобный сервис с учетом лучших практик на сегодя
+        </h2>
+      </div>
+    </>
   );
 };
 

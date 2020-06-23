@@ -3,7 +3,10 @@
   /* background-image: url(../../assets/img/11.jpg); */
   background-position: center center;
   background-size: 45%;
-  min-height: 80vh;
+  min-height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .form {
   max-width: 400px;
